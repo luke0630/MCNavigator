@@ -1,0 +1,4 @@
+name: MCNavigator
+version: '1.0'
+main: org.luke.mCNavigator.MCNavigator
+api-version: '1.21'
