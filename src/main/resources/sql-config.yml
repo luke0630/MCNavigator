@@ -1,0 +1,6 @@
+## SQL DATA
+url: "jdbc:mysql://localhost:3306"
+username: "your_username"
+password: "your_password"
+
+database-name: "your_database_name"
