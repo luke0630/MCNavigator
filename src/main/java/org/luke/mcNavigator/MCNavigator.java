@@ -1,4 +1,4 @@
-package org.luke.mCNavigator;
+package org.luke.mcNavigator;
 
 import lombok.Getter;
 import org.bukkit.plugin.java.JavaPlugin;
