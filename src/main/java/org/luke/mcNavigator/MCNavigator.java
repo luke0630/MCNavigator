@@ -15,10 +15,16 @@ public final class MCNavigator extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
+        // Register events
+        final List<Listener> listeners = List.of(
+                new CatchEvent()
+        );
+        listeners.forEach(listener -> Bukkit.getPluginManager().registerEvents(listener, this));
 
         // Load Data
         configData = ConfigUtility.loadConfig();
 
+        SQLManager.CreateDatabase();
     }
 
     @Override
