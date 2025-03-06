@@ -16,6 +16,9 @@ public final class MCNavigator extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
 
+        // Load Data
+        configData = ConfigUtility.loadConfig();
+
     }
 
     @Override
