@@ -1,7 +1,15 @@
 package org.luke.mcNavigator;
 
 import lombok.Getter;
+import org.bukkit.Bukkit;
+import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.luke.mcNavigator.Data.ConfigData;
+import org.luke.mcNavigator.TutorialNavigator.Listener.CatchEvent;
+import org.luke.mcNavigator.SQL.SQLManager;
+import org.luke.mcNavigator.Yaml.ConfigUtility;
+
+import java.util.List;
 
 public final class MCNavigator extends JavaPlugin {
     @Getter
