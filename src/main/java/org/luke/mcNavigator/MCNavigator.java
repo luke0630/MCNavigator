@@ -14,7 +14,8 @@ public final class MCNavigator extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
+        saveDefaultConfig();
+
         // Register events
         final List<Listener> listeners = List.of(
                 new CatchEvent()
