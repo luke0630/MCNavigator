@@ -7,6 +7,9 @@ public final class MCNavigator extends JavaPlugin {
     @Getter
     private static MCNavigator instance;
 
+    @Getter
+    private static ConfigData configData;
+
     @Override
     public void onLoad() {
         instance = this;
